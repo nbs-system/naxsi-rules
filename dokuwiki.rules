@@ -1,0 +1,5 @@
+# DokuWiki rules
+
+BasicRule wl:1015 "mz:$BODY_VAR:usergroups";
+BasicRule wl:0 "mz:$BODY_VAR:wikitext";
+BasicRule wl:0 "mz:$BODY_VAR:summary";
