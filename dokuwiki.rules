@@ -3,3 +3,5 @@
 BasicRule wl:1015 "mz:$BODY_VAR:usergroups";
 BasicRule wl:0 "mz:$BODY_VAR:wikitext";
 BasicRule wl:0 "mz:$BODY_VAR:summary";
+BasicRule wl:0 "mz:$BODY_VAR:prefix";
+BasicRule wl:0 "mz:$BODY_VAR:suffix";
