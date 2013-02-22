@@ -1,0 +1,5 @@
+BasicRule wl:1005,1010,1011,1315 "mz:$HEADERS_VAR:cookie";
+BasicRule wl:1402 "mz:$HEADERS_VAR:content-type";
+BasicRule wl:11 "mz:$URL:/ru/php/setsettings.php|BODY";
+BasicRule wl:11 "mz:$URL:/ru/php/getsettings.php|BODY";
+BasicRule wl:1000,1001,1015,1310,1311 "mz:$BODY_VAR:v";
