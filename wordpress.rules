@@ -46,6 +46,7 @@ BasicRule wl:1100 "mz:$BODY_VAR:attachment_url";
 BasicRule wl:1001,1009,1100,1302,1303,1310,1311 "mz:$BODY_VAR:html";
 BasicRule wl:1015 "mz:$BODY_VAR:title";
 BasicRule wl:1001,1009,1015 "mz:$BODY_VAR:recaptcha_challenge_field";
+BasicRule wl:1011 "mz:$BODY_VAR:pwd";
 
 ### BODY|NAME
 BasicRule wl:1000 "mz:$BODY_VAR:delete_option|NAME";
