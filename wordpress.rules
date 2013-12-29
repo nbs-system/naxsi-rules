@@ -6,6 +6,7 @@ BasicRule wl:1000,1001,1005,1007,1010,1011,1013,1100,1200,1308,1309,1310,1311,13
 BasicRule wl:1402 "mz:$HEADERS_VAR:content-type";
 
 ### simple BODY (POST)
+BasicRule wl:1001,1015,1009,1311,1310,1101,1016 "mz:$URL:/|$BODY_VAR:customized";
 # comments
 BasicRule wl:1000,1010,1011,1013,1015,1200,1310,1311 "mz:$BODY_VAR:post_title";
 BasicRule wl:1000 "mz:$BODY_VAR:original_publish";
