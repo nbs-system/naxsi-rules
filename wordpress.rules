@@ -47,6 +47,7 @@ BasicRule wl:1001,1009,1100,1302,1303,1310,1311 "mz:$BODY_VAR:html";
 BasicRule wl:1015 "mz:$BODY_VAR:title";
 BasicRule wl:1001,1009,1015 "mz:$BODY_VAR:recaptcha_challenge_field";
 BasicRule wl:1011 "mz:$BODY_VAR:pwd";
+BasicRule wl:1000 "mz:$BODY_VAR:excerpt";
 
 ### BODY|NAME
 BasicRule wl:1000 "mz:$BODY_VAR:delete_option|NAME";
@@ -105,6 +106,7 @@ BasicRule wl:1000 "mz:$URL:/wp-admin/post.php|$BODY_VAR:metakeyselect|NAME";
 BasicRule wl:1000 "mz:$URL:/wp-admin/user-edit.php|$BODY_VAR:from|NAME";
 BasicRule wl:1100 "mz:$URL:/wp-admin/admin-ajax.php|$BODY_VAR:attachment%5burl%5d|NAME";
 BasicRule wl:1310,1311 "mz:$URL:/wp-admin/admin-ajax.php|$BODY_VAR:data[wp-auth-check]|NAME";
+BasicRule wl:1310,1311 "mz:$URL:/wp-admin/update-core.php|$BODY_VAR:checked[]|NAME";
 # URL|ARGS|NAME
 BasicRule wl:1310,1311 "mz:$URL:/wp-admin/load-scripts.php|$ARGS_VAR:load[]|NAME";
 BasicRule wl:1000 "mz:$URL:/wp-admin/users.php|$ARGS_VAR:delete_count|NAME";
