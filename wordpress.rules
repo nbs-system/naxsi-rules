@@ -107,6 +107,7 @@ BasicRule wl:1000 "mz:$URL:/wp-admin/post.php|$BODY_VAR:metakeyselect|NAME";
 BasicRule wl:1000 "mz:$URL:/wp-admin/user-edit.php|$BODY_VAR:from|NAME";
 BasicRule wl:1100 "mz:$URL:/wp-admin/admin-ajax.php|$BODY_VAR:attachment%5burl%5d|NAME";
 BasicRule wl:1310,1311 "mz:$URL:/wp-admin/admin-ajax.php|$BODY_VAR:data[wp-auth-check]|NAME";
+BasicRule wl:1310,1311 "mz:$URL:/wp-admin/admin-ajax.php|$BODY_VAR:data[wp-check-locked-posts][]|NAME";
 BasicRule wl:1310,1311 "mz:$URL:/wp-admin/update-core.php|$BODY_VAR:checked[]|NAME";
 # URL|ARGS|NAME
 BasicRule wl:1310,1311 "mz:$URL:/wp-admin/load-scripts.php|$ARGS_VAR:load[]|NAME";
