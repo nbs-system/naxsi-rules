@@ -1,0 +1,12 @@
+BasicRule  wl:1200 "mz:$URL:/|ARGS";
+BasicRule  wl:1015 "mz:$URL:/|ARGS";
+BasicRule  wl:1200 "mz:$URL:/|$ARGS_VAR:nick";
+BasicRule  wl:1015 "mz:$URL:/|$ARGS_VAR:channels";
+BasicRule  wl:1311 "mz:$URL:/e/p|BODY";
+BasicRule  wl:1205 "mz:$URL:/e/p|BODY";
+BasicRule  wl:1016 "mz:$URL:/e/p|BODY";
+BasicRule  wl:1015 "mz:$URL:/e/p|BODY";
+BasicRule  wl:1311 "mz:$URL:/e/p|$BODY_VAR:c";
+BasicRule  wl:1205 "mz:$URL:/e/p|$BODY_VAR:c";
+BasicRule  wl:1016 "mz:$URL:/e/p|$BODY_VAR:c";
+BasicRule  wl:1015 "mz:$URL:/e/p|$BODY_VAR:c";
