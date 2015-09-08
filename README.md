@@ -1,4 +1,4 @@
-Here you will find naxsi rules proven to work in a production environment.
+Here you will find naxsi rules provided and maintained by the community.
 
-* wordpress.rules: naxsi whitelist rules for a WordPress website
-* dokuwiki.rules: naxsi whitelist rules for a DokuWiki website
+Naxsi's team is not involved into writting or maintaining those rules.
+
