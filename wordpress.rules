@@ -80,7 +80,7 @@ BasicRule wl:1009 "mz:$URL:/wp-admin/customize.php|$ARGS_VAR:return";
 BasicRule wl:1009,1100,1101 "mz:$URL:/wp-admin/post.php|$BODY_VAR:_wp_http_referer";
 BasicRule wl:1016 "mz:$URL:/wp-admin/post.php|$BODY_VAR:metakeyselect";
 BasicRule wl:11 "mz:$URL:/xmlrpc.php|BODY";
-BasicRule wl:11 "mz:$URL:/wp-cron.php|BODY";
+BasicRule wl:11,16 "mz:$URL:/wp-cron.php|BODY";
 BasicRule wl:2 "mz:$URL:/wp-admin/async-upload.php|BODY";
 # URL|BODY|NAME
 BasicRule wl:1100,1101 "mz:$URL:/wp-admin/post.php|$BODY_VAR:_wp_original_http_referer|NAME";
@@ -109,7 +109,7 @@ BasicRule wl:1000 "mz:URL|$URL:/wp-admin/update.php";
 BasicRule wl:1009,1100,1101 "mz:$URL:/wp-admin/post.php|$BODY_VAR:_wp_http_referer";
 BasicRule wl:1016 "mz:$URL:/wp-admin/post.php|$BODY_VAR:metakeyselect";
 BasicRule wl:11 "mz:$URL:/xmlrpc.php|BODY";
-BasicRule wl:11 "mz:$URL:/wp-cron.php|BODY";
+BasicRule wl:11,16 "mz:$URL:/wp-cron.php|BODY";
 # URL|BODY|NAME
 BasicRule wl:1100,1101 "mz:$URL:/wp-admin/post.php|$BODY_VAR:_wp_original_http_referer|NAME";
 BasicRule wl:1000 "mz:$URL:/wp-admin/post.php|$BODY_VAR:metakeyselect|NAME";
