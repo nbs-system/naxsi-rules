@@ -1,4 +1,4 @@
-# etherpad-lite whitelist rules
+# Etherpad: Really real-time collaborative document editing http://etherpad.org
 BasicRule  wl:11 "mz:$URL:/socket.io/|BODY";
 BasicRule  wl:1101 "mz:$URL:/jserror|$BODY_VAR:errorinfo";
 BasicRule  wl:1015 "mz:$URL:/jserror|$BODY_VAR:errorinfo";
