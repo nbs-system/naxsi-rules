@@ -134,6 +134,5 @@ BasicRule  wl:1100 "mz:$URL:/trackback/|BODY|$BODY_VAR:url";
 BasicRule  wl:1009,1100,1005 "mz:$BODY_VAR:excerpt|BODY";
 
 ### oEmbed API
-BasicRule wl:1101 "mz:$URL:/wp-json/oembed/1.0/embed|ARGS";
-BasicRule wl:1101 "mz:$URL:/wp-json/oembed/1.0/embed|$ARGS_VAR:url";
-BasicRule wl:1101 "mz:ARGS";
+BasicRule wl:1101,1100 "mz:$URL:/wp-json/oembed/1.0/embed|ARGS";
+BasicRule wl:1101,1100 "mz:$URL:/wp-json/oembed/1.0/embed|$ARGS_VAR:url";
