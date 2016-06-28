@@ -4,3 +4,4 @@ BasicRule  wl:2 "mz:$URL_X:^/p/.*/import$|BODY";
 BasicRule  wl:1311 "mz:$URL_X:^/p/.*]$|URL";
 BasicRule  wl:1007 "mz:URL";
 BasicRule  wl:1315 "mz:$HEADERS_VAR:cookie";
+BasicRule  wl:11 "mz:$URL:/socket.io/|BODY";
