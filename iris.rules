@@ -1,12 +1,6 @@
-BasicRule  wl:1200 "mz:$URL:/|ARGS";
-BasicRule  wl:1015 "mz:$URL:/|ARGS";
-BasicRule  wl:1200 "mz:$URL:/|$ARGS_VAR:nick";
-BasicRule  wl:1015 "mz:$URL:/|$ARGS_VAR:channels";
-BasicRule  wl:1311 "mz:$URL:/e/p|BODY";
-BasicRule  wl:1205 "mz:$URL:/e/p|BODY";
-BasicRule  wl:1016 "mz:$URL:/e/p|BODY";
-BasicRule  wl:1015 "mz:$URL:/e/p|BODY";
-BasicRule  wl:1311 "mz:$URL:/e/p|$BODY_VAR:c";
-BasicRule  wl:1205 "mz:$URL:/e/p|$BODY_VAR:c";
-BasicRule  wl:1016 "mz:$URL:/e/p|$BODY_VAR:c";
-BasicRule  wl:1015 "mz:$URL:/e/p|$BODY_VAR:c";
+# Web IRC client Iris for the atheme platform https://github.com/atheme-legacy/iris
+BasicRule  wl:1315,1001 "mz:$HEADERS_VAR:cookie";
+BasicRule  wl:1009,1101,1200 "mz:$URL:/|ARGS|$ARGS_VAR:nick";
+BasicRule  wl:1009,1101 "mz:$URL:/|$ARGS_VAR:channels";
+BasicRule  wl:1008 "mz:$URL:/|ARGS|NAME";
+BasicRule  wl:1101,1001,1100,1005,1205,1009,1013,1310,1314,1016,1312,1015,1200,1010,1008 "mz:$URL:/e/p|BODY|$BODY_VAR:c";
