@@ -128,3 +128,11 @@ BasicRule wl:1000 "mz:$URL:/wp-admin/users.php|$ARGS_VAR:update|NAME";
 ### Plugins
 #WP Minify
 BasicRule wl:1015 "mz:$URL:/wp-content/plugins/bwp-minify/min/|$ARGS_VAR:f";
+#Jetpack Infinite Scroll
+BasicRule wl:1310,1311 "mz:$BODY_VAR:scripts[]|NAME";
+BasicRule wl:1310,1311 "mz:$BODY_VAR:styles[]|NAME";
+BasicRule wl:1310,1311 "mz:$BODY_VAR_X:^query_args\[.*\]|NAME";
+BasicRule wl:1000 "mz:$BODY_VAR:query_args[update_post_term_cache]|NAME";
+BasicRule wl:1000 "mz:$BODY_VAR:query_args[update_post_meta_cache]|NAME";
+#UpdraftPlus
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/updraftplus/includes/select2/select2.min.css|URL";
