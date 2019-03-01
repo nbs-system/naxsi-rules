@@ -136,3 +136,17 @@ BasicRule wl:1000 "mz:$BODY_VAR:query_args[update_post_term_cache]|NAME";
 BasicRule wl:1000 "mz:$BODY_VAR:query_args[update_post_meta_cache]|NAME";
 #UpdraftPlus
 BasicRule wl:1000 "mz:$URL:/wp-content/plugins/updraftplus/includes/select2/select2.min.css|URL";
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/updraftplus/includes/select2/select2.min.js|URL";
+#WP plugin updates
+BasicRule wl:1315 "mz:$ARGS_VAR:query|$URL:/wp-json/jetpack/v4/jitm";
+#Jetpack Google Fonts
+BasicRule wl:1001 "mz:$URL_X:^/wp-content/plugins/jetpack/css/.*|URL";
+#WooCommerce
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/woocommerce/assets/js/select2/select2.full.min.js|URL";
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/woocommerce/assets/js/selectWoo/selectWoo.full.min.js|URL";
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/woocommerce/assets/js/stupidtable/stupidtable.min.js|URL";
+#WPML
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/sitepress-multilingual-cms/lib/select2/select2.min.js|URL";
+#Yoast SEO
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/wordpress-seo/js/dist/select2/select2.full.min.js|URL";
+BasicRule wl:1000 "mz:$URL:/wp-content/plugins/wordpress-seo/css/dist/select2/select2.min.css|URL";
