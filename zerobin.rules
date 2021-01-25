@@ -1,4 +1,4 @@
-Zerobin is here in directory /paste if diffrent change $URL:/paste/ below
+# Zerobin is here in directory /paste if diffrent change $URL:/paste/ below
 BasicRule wl:1015 "mz:$URL:/paste/|$BODY_VAR:data";
 BasicRule wl:1315 "mz:$URL:/paste/|$HEADERS_VAR:cookie";
 BasicRule wl:1001 "mz:$URL:/paste/|$BODY_VAR:data";
