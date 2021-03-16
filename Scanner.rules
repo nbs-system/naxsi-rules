@@ -1,7 +1,7 @@
 MainRule  "str:havij" "msg:Havij-SQL_scanner" "mz:$HEADERS_VAR:User-Agent" "s:$UWA:8" id:42000312  ;
 MainRule  "str:http://http://" "msg:Abnormal double http:// in HTTP header," "mz:HEADERS" "s:$UWA:8" id:42000310  ;
 # http://pastebin.com/NP64hTQr# http://blog.initiative-s.de/2013/09/kompromitierte-wordpress-blogs-werden-fuer-ddos-attacken-genutzt/
-# neu su dung wp thi tat rule nay
+# If using wp then turn off this rule
 MainRule  "str:wordpress/" "msg:Wordpress-UA, probably Botnet-Attack" "mz:$HEADERS_VAR:User-Agent" "s:$UWA:8" id:42000317  ;
 # https://github.com/robertdavidgraham/masscan
 MainRule  "str:masscan/" "msg:MASSCAN - UA Detected" "mz:$HEADERS_VAR:User-Agent" "s:$UWA:8" id:42000326  ;
