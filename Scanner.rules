@@ -42,4 +42,5 @@ MainRule  "str:/sftp-config.json" "msg:SFTP-config-file access" "mz:URL|BODY" "s
 MainRule  "str:zerodium" "msg:php supply chain attack " "mz:$HEADERS_VAR:User-Agent" "s:$UWA:8" id:42000085  ;
 # prevent log4j attack 
 # info https://www.govcert.ch/blog/zero-day-exploit-targeting-popular-java-library-log4j/
-MainRule  "str:jndi" "msg:log4j attack detection " "mz:$HEADERS_VAR:User-Agent" "s:$UWA:8" id:42000086  ;
+# payload check https://github.com/johto89/Some-collections-for-Security-Researcher/blob/master/log4j-all-in-one.md
+MainRule  "str:${" "msg:log4j attack detection " "mz:$HEADERS_VAR:User-Agent" "s:$UWA:8" id:42000086;
